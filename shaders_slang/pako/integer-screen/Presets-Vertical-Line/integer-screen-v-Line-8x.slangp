@@ -1,0 +1,16 @@
+shaders = 1
+shader0 = ../shaders/integer-screen.slang
+filter_linear0 = false
+scale_type0 = viewport
+scale0 = 1.0
+
+textures = "screen"
+# change this path to point to your screen image
+screen = ../shaders/v-line/2x8Line.png
+
+parameters = "ScreenLUTWidth;ScreenLUTHeight;BGR"
+# set these to the width/height of your screen image
+ScreenLUTWidth = 8.0
+ScreenLUTHeight = 2.0
+# enable this if you're using a BGR display
+BGR = 0.0

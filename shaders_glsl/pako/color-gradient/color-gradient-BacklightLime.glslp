@@ -1,0 +1,14 @@
+shaders = 1
+
+shader0 = shaders/color-gradient.glsl
+scale_type0 = source
+
+parameters = "Grad1R;Grad1G;Grad1B;Grad2R;Grad2G;Grad2B"
+# set these to the desired darker color in RGB values from 0.0 to 1.0
+Grad1R = 0.17
+Grad1G = 0.28
+Grad1B = 0.00
+# set these to the desired lighter color in RGB values from 0.0 to 1.0
+Grad2R = 0.87
+Grad2G = 1.00
+Grad2B = 0.15

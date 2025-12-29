@@ -1,0 +1,16 @@
+shaders = 1
+shader0 = ../../shaders/integer-multiply.slang
+filter_linear0 = false
+scale_type0 = viewport
+scale0 = 1.0
+
+textures = "multiply"
+# change this path to point to your multiply image
+multiply = ../../shaders/h-rgb-grid/nonsq/2x3MGGrid.png
+
+parameters = "MultiplyLUTWidth;MultiplyLUTHeight;BGR"
+# set these to the width/height of your multiply image
+MultiplyLUTWidth = 2.0
+MultiplyLUTHeight = 3.0
+# enable this if you're using a BGR display
+BGR = 0.0

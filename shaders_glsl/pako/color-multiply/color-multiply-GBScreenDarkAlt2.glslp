@@ -1,0 +1,10 @@
+shaders = 1
+
+shader0 = shaders/color-multiply.glsl
+scale_type0 = source
+
+parameters = "TintR;TintG;TintB"
+# set these to the desired tint color in RGB values from 0.0 to 1.0
+TintR = 0.45
+TintG = 0.42
+TintB = 0.35
